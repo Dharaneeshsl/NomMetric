@@ -1,6 +1,7 @@
 | Name | Github-ID | College name | Roll no. | Issue no. |
 |:-----|--------:|---------|-------:|------:|
 | Jatin | thenix09 | IIITA | IIT2025101 | 1 |
+| Anurag| Anurag-Bansode| IIITT | 242101|1|  
 | Harshvardhan | HARSH4885-svg | IIITA | IIT2025177 | 1 |
 | Aaditya Maurya | aadityamaurya31 | IIITA | IIT2025057 | 1 |
 |Mani kanta|MANI8148|IIITA|IIT2024131|1|
