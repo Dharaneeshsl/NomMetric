@@ -55,3 +55,8 @@ It **does not** contain any details regarding visual designs yet.
 - Each accepted PR will add an entry under the relevant issue section
 
 > Only shortlisted designs will be merged into the main design system
+
+## Contributors
+- **Contributor:** Ishan Raj Singh 
+- **Design Link:** https://www.figma.com/make/1i5d6pfFL7HYHHqwspgGGd/Design-App-Logo-and-Splash-Screen?fullscreen=1 
+- **Notes:** The design is minimal, professional, and perfectly suited for a college mess tracking app 
