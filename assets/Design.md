@@ -58,7 +58,7 @@ It **does not** contain any details regarding visual designs yet.
 ## Contributors
 - **Contributor:** Ishan Raj Singh 
 - **Design Link:** https://www.figma.com/make/1i5d6pfFL7HYHHqwspgGGd/Design-App-Logo-and-Splash-Screen?fullscreen=1 
-- **Notes:** The design is minimal, professional, and perfectly suited for a college mess tracking app 
+- **Notes:** The design is minimal, professional, and perfectly suited for a college mess tracking app
 
 - **Contributor:** Siddhant Shekhar
 - **Design Link:** https://www.figma.com/design/udeUbTALeSmwtNTNn82oR3/Untitled?node-id=0-1&t=vPxriFgaqxoZef28-1
@@ -67,6 +67,10 @@ It **does not** contain any details regarding visual designs yet.
  **Contributor:** Omdeep Masram
  **Design Link:** https://www.figma.com/design/fqaRKKB9JuYHxFqjn04uHf/Untitled?node-id=0-1&t=AWOHdXknzkvxDJPv-1
  **Notes:** simple design for login and register screen NO AIs USED!
+
+**Contributor:** Sujal kshatri 
+**Design Link:** https://www.figma.com/design/MHvNzOcN0nL1l7vn2tVscm/Cupid-Arrow-Dating-App--iOS-Android-UI-UX--Community-?node-id=0-1&t=SoXFZG9JW4jyBY6m-1 
+**Notes:** The design included logo and splash screen which is minimal and professional, no AI used. 
 
  **Contributor:** Sanchita Agte
  **Design Link:** https://www.figma.com/design/hkttHtqGNK3SHknPOnfPck/Untitled?node-id=0-1&t=0yj5slRxGifJy0cS-1 
