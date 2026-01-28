@@ -5,18 +5,16 @@ class StatusCardHac144 extends StatelessWidget {
   final String title;
   final String message;
   final Color statusColor;
-  final String? actionText;
-  final VoidCallback? onAction;
+  final String buttonText;
 
   const StatusCardHac144({
-    super.key,
+    Key? key,
     required this.icon,
     required this.title,
     required this.message,
-    this.statusColor = Colors.blue,
-    this.actionText,
-    this.onAction,
-  });
+    this.statusColor = Colors.yellow,
+    this.buttonText = 'View',
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,44 +24,40 @@ class StatusCardHac144 extends StatelessWidget {
         borderRadius: BorderRadius.circular(12),
       ),
       child: Container(
-        padding: const EdgeInsets.all(16),
+        padding: EdgeInsets.all(16),
         decoration: BoxDecoration(
-          border: Border(
-            left: BorderSide(color: statusColor, width: 5),
-          ),
+          border: Border(left: BorderSide(color: statusColor, width: 5)),
         ),
         child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Icon(icon, color: statusColor, size: 28),
-            const SizedBox(width: 12),
+            Icon(icon, size: 40, color: statusColor),
+            SizedBox(width: 16),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     title,
-                    style: const TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                   ),
-                  const SizedBox(height: 6),
+                  SizedBox(height: 8),
                   Text(
                     message,
-                    style: const TextStyle(fontSize: 14),
+                    style: TextStyle(fontSize: 14),
                   ),
-                  if (actionText != null && onAction != null) ...[
-                    const SizedBox(height: 10),
-                    Align(
-                      alignment: Alignment.centerRight,
-                      child: TextButton(
-                        onPressed: onAction,
-                        child: Text(actionText!),
-                      ),
-                    ),
-                  ]
                 ],
+              ),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // You can handle button click here
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.white,
+              ),
+              child: Text(
+                buttonText,
+                style: TextStyle(color: Colors.blue),
               ),
             ),
           ],
